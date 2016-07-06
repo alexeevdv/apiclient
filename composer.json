@@ -1,0 +1,11 @@
+{
+    "name": "credy/apiclient",
+    "requires" :{
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "credy\\api\\": "src/"
+        }
+    }
+}
