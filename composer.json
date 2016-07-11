@@ -1,6 +1,6 @@
 {
     "name": "credy/apiclient",
-    "requires" :{
+    "require": {
         "guzzlehttp/guzzle": "^6.2"
     },
     "autoload": {
