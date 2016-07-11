@@ -167,7 +167,7 @@ class Client extends Configurable
 
     public function sendLead(array $data, $returnArray = false)
     {
-        $response = $this->getClient()->post('/lead', [
+        $response = $this->getClient()->post('lead', [
             'json' => $this->authenticateRequest($data)
         ]);
         return json_decode($response->getBody(), $returnArray);
@@ -175,7 +175,7 @@ class Client extends Configurable
 
     public function getLeadStatus($leadId, $returnArray = false)
     {
-        $response = $this->getClient()->get('/iframe/check-lead-status', [
+        $response = $this->getClient()->get('iframe/check-lead-status', [
             'query' => [
                 'leadId' => $leadId,
             ]
