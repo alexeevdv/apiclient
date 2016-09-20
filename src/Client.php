@@ -6,7 +6,7 @@ use credy\api\helpers\Configurable;
 
 class Client extends Configurable
 {
-    const API_URL_STAGING = 'http://52.16.186.127/api/';
+    const API_URL_STAGING = 'http://staging.credy.eu/api/';
     const API_URL_PROD = 'https://credy.eu/api/';
 
     const GENDER_MALE = 'MALE';
